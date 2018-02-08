@@ -1,0 +1,28 @@
+.results {
+
+    display: none;
+
+    input {
+        border: none;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    &__input {
+        background-color: #D3D3D3;
+        display: grid;
+        grid-template-columns: 40% auto;
+        margin-bottom: 1.2rem;
+    }
+    
+    &__input:last-child {
+        margin-bottom: 1.2rem;
+    }
+    
+    span {
+        text-align: left;
+    }
+}

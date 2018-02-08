@@ -1,0 +1,21 @@
+.collection {
+
+    &__item:first-child {
+        border: 1px solid black;
+    }
+    
+    &__item {
+        border: 1px solid black;
+        border-top: none;
+        margin-right: 1rem;
+        border-collapse: separate;
+        padding: 1rem 2rem;
+        list-style-type: none;
+        
+
+        &__secondary-content {
+            float: right;       
+        }
+    }
+
+}

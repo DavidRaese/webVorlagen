@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="container">
+            <h2 class="card__title">Loan Calculator</h2>
+            <div class="card__inputLine">
+                <span>$</span>
+                <input id="loanAmount" class="card__input" type="text" placeholder="Loan Amount">
+            </div>
+
+            <div class="card__inputLine">
+                <span>%</span>
+                <input id="annualIntrest" class="card__input" type="text" placeholder="Annual interest">
+            </div>
+
+            <div class="card__inputLine">
+                <input id="repaymentYears" class="card__input--block" type="text" placeholder="Repayment Years">
+            </div>
+
+            <div>
+                <button id="btnCalculate" class="btn btn--dark">Calculate</button>
+            </div>
+
+            <!-- Results -->
+            <div class="results">
+                <h4 class="results__title">Results</h4>
+                <div class="results__input">
+                    <span>Monthly Payment:</span>
+                    <input id="resultMonthlyPayment" type="text">
+                </div>
+                <div class="results__input">
+                    <span>Total Payment:</span>
+                    <input id="resultTotalPayment" type="text">
+                </div>
+                <div class="results__input">
+                    <span>Total Intrest:</span>
+                    <input id="resultTotalIntrest" type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/bundle.js"></script>
+</body>
+
+</html>

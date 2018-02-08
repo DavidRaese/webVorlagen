@@ -1,0 +1,28 @@
+* {
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  background: linear-gradient(#808080, #00ffff);
+  height: 80vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:disabled {
+  cursor: default;
+}
+
